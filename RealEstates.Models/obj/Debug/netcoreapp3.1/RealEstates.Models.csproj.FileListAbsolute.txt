@@ -1,0 +1,9 @@
+D:\C#DB\EntityFrameworkCore\Lab - BestPracticesAndArchitecture\RealEstates\RealEstates.Models\bin\Debug\netcoreapp3.1\RealEstates.Models.deps.json
+D:\C#DB\EntityFrameworkCore\Lab - BestPracticesAndArchitecture\RealEstates\RealEstates.Models\bin\Debug\netcoreapp3.1\RealEstates.Models.dll
+D:\C#DB\EntityFrameworkCore\Lab - BestPracticesAndArchitecture\RealEstates\RealEstates.Models\bin\Debug\netcoreapp3.1\RealEstates.Models.pdb
+D:\C#DB\EntityFrameworkCore\Lab - BestPracticesAndArchitecture\RealEstates\RealEstates.Models\obj\Debug\netcoreapp3.1\RealEstates.Models.csprojAssemblyReference.cache
+D:\C#DB\EntityFrameworkCore\Lab - BestPracticesAndArchitecture\RealEstates\RealEstates.Models\obj\Debug\netcoreapp3.1\RealEstates.Models.AssemblyInfoInputs.cache
+D:\C#DB\EntityFrameworkCore\Lab - BestPracticesAndArchitecture\RealEstates\RealEstates.Models\obj\Debug\netcoreapp3.1\RealEstates.Models.AssemblyInfo.cs
+D:\C#DB\EntityFrameworkCore\Lab - BestPracticesAndArchitecture\RealEstates\RealEstates.Models\obj\Debug\netcoreapp3.1\RealEstates.Models.csproj.CoreCompileInputs.cache
+D:\C#DB\EntityFrameworkCore\Lab - BestPracticesAndArchitecture\RealEstates\RealEstates.Models\obj\Debug\netcoreapp3.1\RealEstates.Models.dll
+D:\C#DB\EntityFrameworkCore\Lab - BestPracticesAndArchitecture\RealEstates\RealEstates.Models\obj\Debug\netcoreapp3.1\RealEstates.Models.pdb
