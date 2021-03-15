@@ -2,7 +2,7 @@
 
 namespace RealEstates.Importer
 {
-    class Program
+    class StartUp
     {
         static void Main(string[] args)
         {
