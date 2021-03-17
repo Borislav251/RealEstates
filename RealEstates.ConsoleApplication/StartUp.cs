@@ -17,16 +17,26 @@ namespace RealEstates.ConsoleApplication
 
             IPropertiesService propertiesService = new PropertiesService(db);
 
-            //propertiesService.Create("Драгалевци", 100, 2019, 210000, "4-СТАЕН", "ЕПК", 20, 20);
-            //propertiesService.Create("Севера", 70, 1986, 50000, "2-СТАЕН", "ЕПК", 1, 8);
+            Console.Write("Min price: ");
+            int minPrice = int.Parse(Console.ReadLine());
 
-            IDistrictsService districtService = new DistrictsService(db);
-            var districts = districtService.GetTopDistrictsByAveragePrice();
+            Console.Write("Max price: ");
+            int maxPrice = int.Parse(Console.ReadLine());
 
-            foreach (var district in districts)
+            var properties = propertiesService.SearchByPrice(minPrice, maxPrice);
+
+            foreach (var property in properties)
             {
-                Console.WriteLine($"{district.Name} => Price: {district.AveragePrice} ({district.MinPrice} - {district.MaxPrice}) => {district.PropertiesCount} properties");
+                Console.WriteLine($"{property.District}, fl. {property.Floor}, {property.Size} m², {property.Year}, {property.Price}€, {property.PropertyType}, {property.BuildingType}");
+
             }
+            //IDistrictsService districtService = new DistrictsService(db);
+            //var districts = districtService.GetTopDistrictsByAveragePrice();
+
+            //foreach (var district in districts)
+            //{
+            //    Console.WriteLine($"{district.Name} => Price: {district.AveragePrice} ({district.MinPrice} - {district.MaxPrice}) => {district.PropertiesCount} properties");
+            //}
 
         }
     }
