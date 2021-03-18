@@ -40,6 +40,7 @@ namespace RealEstates.ConsoleApplication
 
 
             Console.WriteLine("Just a check!");
+            Console.WriteLine("Just a second check!");
         }
     }
 }
