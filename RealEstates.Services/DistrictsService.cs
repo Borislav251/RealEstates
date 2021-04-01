@@ -1,10 +1,11 @@
-﻿using RealEstates.Data;
-using RealEstates.Models;
-using RealEstates.Services.Models;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Collections.Generic;
+
+using RealEstates.Data;
+using RealEstates.Models;
+using RealEstates.Services.Models;
 
 namespace RealEstates.Services
 {

@@ -37,10 +37,6 @@ namespace RealEstates.ConsoleApplication
             //{
             //    Console.WriteLine($"{district.Name} => Price: {district.AveragePrice} ({district.MinPrice} - {district.MaxPrice}) => {district.PropertiesCount} properties");
             //}
-
-
-            Console.WriteLine("Just a check!");
-            Console.WriteLine("Just a second check!");
         }
     }
 }

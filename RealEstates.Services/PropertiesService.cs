@@ -1,11 +1,11 @@
-﻿using RealEstates.Data;
-using RealEstates.Models;
-using RealEstates.Services.Models;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
+using System.Collections.Generic;
+
+using RealEstates.Data;
+using RealEstates.Models;
+using RealEstates.Services.Models;
 
 namespace RealEstates.Services
 {
@@ -20,7 +20,7 @@ namespace RealEstates.Services
 
         public void Create(string district, int size, int? year, int price, string propertyType, string buildingType, int? floor, int? maxFloors)
         {
-            if(district == null)
+            if (district == null)
             {
                 throw new ArgumentNullException(nameof(district));
             }
@@ -48,7 +48,6 @@ namespace RealEstates.Services
             {
                 property.TotalNumberOfFloors = 0;
             }
-
 
             // District
             var districtEntity = this.db.Districts.FirstOrDefault(x => x.Name.Trim() == district.Trim());
@@ -82,7 +81,6 @@ namespace RealEstates.Services
 
             this.UpdateTags(property.Id);
         }
-
 
         public IEnumerable<PropertyViewModel> Search(int minYear, int maxYear, int minSize, int maxSize)
         {

@@ -1,10 +1,10 @@
-﻿using RealEstates.Data;
-using RealEstates.Services;
-using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
+using System.Collections.Generic;
 using System.Text.Json;
+
+using RealEstates.Data;
+using RealEstates.Services;
 
 namespace RealEstates.Importer
 {
