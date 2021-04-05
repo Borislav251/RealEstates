@@ -82,7 +82,7 @@ namespace RealEstates.Services
             this.UpdateTags(property.Id);
         }
 
-        public IEnumerable<PropertyViewModel> Search(int minYear, int maxYear, int minSize, int maxSize)
+        public IEnumerable<PropertyViewModel> SearchByYearAndSize(int minYear, int maxYear, int minSize, int maxSize)
         {
 
             return db.RealEstateProperties

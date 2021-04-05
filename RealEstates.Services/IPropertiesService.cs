@@ -10,7 +10,7 @@ namespace RealEstates.Services
 
         void UpdateTags(int propertyId);
 
-        IEnumerable<PropertyViewModel> Search(int minYear, int maxYear, int minSize, int maxSize);
+        IEnumerable<PropertyViewModel> SearchByYearAndSize(int minYear, int maxYear, int minSize, int maxSize);
 
         IEnumerable<PropertyViewModel> SearchByPrice(int minPrice, int maxPrice);
     }

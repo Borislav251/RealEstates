@@ -16,12 +16,12 @@ namespace RealEstates.Web.Controllers
             this.propertiesService = propertiesService;
         }
 
-        public IActionResult Search()
+        public IActionResult SearchByPrice()
         {
             return this.View();
         }
 
-        public IActionResult DoSearch(int minPrice, int maxPrice)
+        public IActionResult DoSearchByPrice(int minPrice, int maxPrice)
         {
             var properties = this.propertiesService.SearchByPrice(minPrice, maxPrice);
             return this.View(properties);
