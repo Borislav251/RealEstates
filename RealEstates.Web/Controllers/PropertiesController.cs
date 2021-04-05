@@ -32,9 +32,9 @@ namespace RealEstates.Web.Controllers
             return this.View();
         }
 
-        public IActionResult DoSearchByYearAndSize(int minPrice, int maxPrice, int minSize, int maxSize)
+        public IActionResult DoSearchByYearAndSize(int minYear, int maxYear, int minSize, int maxSize)
         {
-            var properties = this.propertiesService.SearchByYearAndSize(minPrice, maxPrice, minSize, maxSize);
+            var properties = this.propertiesService.SearchByYearAndSize(minYear, maxYear, minSize, maxSize);
             return this.View(properties);
         }
     }
